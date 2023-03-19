@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #93c5fd;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+.card-container {
+  background-color: #f8fafc;
+  height: 300px;
+  width: 500px;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 15px;
+}
+.heading {
+  color: #000000;
+  font-size: 32px;
+  font-family: 'roboto';
+  font-weight: bold;
+}
+.capitals-container {
+  display: flex;
+  align-items: center;
+}
+.select-container {
+  background-color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  width: 100px;
+  height: 40px;
+  border: 1px solid #cbd2d9;
+  border-radius: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  outline: none;
+}
+.option {
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+}
+.question-para {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin-left: 8px;
+}
+.country {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+}
